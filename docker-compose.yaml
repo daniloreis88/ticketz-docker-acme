@@ -101,7 +101,7 @@ services:
     restart: always
     networks:
       sistema_rede_docker2:
-        ipv4_address: 192.168.0.20  # IP Estático
+        ipv4_address: 192.168.0.23  # IP Estático
 
   redis:
     image: redis:7-alpine
